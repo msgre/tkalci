@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+          <!--//Post//-->
+          <div class="sp-post">
+            <div class="sp-post-content">
+              <div class="sp-container">
+                <div class="sp-post-desc">
+                  <header class="sp-post-header">
+                    <h2 class="sp-post-title">{{ page.title }}</h2>
+                  </header>
+
+                    {% block page_content %} 
+                        {{ page.content }}
+                    {% endblock %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--//End Post-->
+{% endblock %}

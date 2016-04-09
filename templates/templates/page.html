@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title|striptags }}{% endblock %}
+
+{% block content %}
+          <!--//Post//-->
+          <div class="sp-post">
+            {% if page.frontimage %}
+              <figure class="sp-thumb-container">
+                  <img src="{{ page.frontimage }}" alt="{{ page.title|striptags }}">
+              </figure>
+            {% endif %}
+
+            <div class="sp-post-content">
+              <div class="sp-container">
+                <div class="sp-post-desc">
+                  <header class="sp-post-header">
+                    {#
+                    <div class="sp-meta">
+                      <span><a href="{{ SITEURL }}/{{ page.category.url }}">{{ page.category }}</a></span>
+                    </div>
+                    #}
+                    <h2 class="sp-post-title">{{ page.title }}</h2>
+                  </header>
+
+                  <div class="sp-entry-content">
+                    {% if page.category|trim == "pozvanky" %}
+                      <div class="sp-author-info">
+                        <div class="sp-info-header clearfix">
+                          <div class="sp-name">
+                            <span>Kdy</span>
+                            {{ page.locale_date }}
+                            <span>Kde</span>
+                            Gobelínka, ValMez
+                          </div>
+                          <br>
+                            <p>
+                                <a href="http://srazy.info/tkalci-na-webu" type="button" class="btn btn-danger">Registrace</a>
+                            <p>
+                        </div>
+                      </div>
+                    {% elif page.category|trim == "zapisy" %}
+                      <div class="sp-author-info">
+                        <div class="sp-info-header clearfix">
+                          <div class="sp-name">
+                            <span>Sepsal</span>
+                            {% for author in page.authors %}
+                                {#<a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>#}
+                                {{ author }}
+                            {% endfor %}
+                          </div>
+                          <hr class="sp-separator">
+                          <div class="sp-desc">
+                              <p>
+                                {{ page.locale_date }}
+                                {% if page.tags %}
+                                  <br>
+                                  {% for tag in page.tags %}
+                                    {#<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | escape }}</a>{% if not loop.last %}, {% endif %}#}
+                                    {{ tag | escape }}{% if not loop.last %}, {% endif %}
+                                  {% endfor %}
+                                {% endif %}
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+
+                    {% block page_content %} 
+                        {{ page.content }}
+                    {% endblock %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--//End Post-->
+{% endblock %}

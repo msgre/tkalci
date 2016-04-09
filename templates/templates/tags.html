@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Tagy{% endblock %}
+
+{% block content %}
+    <!--//Post//-->
+    <div class="sp-post">
+        <div class="sp-post-content">
+            <div class="sp-container">
+                <div class="sp-post-desc">
+                    <header class="sp-post-header">
+                        <h2 class="sp-post-title">Tagy</h2>
+                    </header>
+                    <ul>
+                        {% for tag, articles in tags %}
+                            <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!--//End Post-->
+{% endblock %}

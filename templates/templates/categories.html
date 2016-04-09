@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Kategorie{% endblock %}
+
+{% block content %}
+    <!--//Post//-->
+    <div class="sp-post">
+        <div class="sp-post-content">
+            <div class="sp-container">
+                <div class="sp-post-desc">
+                    <header class="sp-post-header">
+                        <h2 class="sp-post-title">Kategorie</h2>
+                    </header>
+                    <ul>
+                        {% for category, articles in categories %}
+                            <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!--//End Post-->
+{% endblock %}

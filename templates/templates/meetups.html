@@ -1,0 +1,18 @@
+{% extends "page.html" %}
+
+{% block page_content %} 
+    <p>
+        <a class="button button-default" href="https://docs.google.com/spreadsheets/d/1MasORDSTXk2W2_nQkrEfRowrZZ5do9LYgcuBpgrbB9M/edit?usp=sharing">Tabulka s nabídkou přednášek</a>
+    </p>
+    <hr />
+    {{ super() }}
+
+    <h3>Zápisy ze srazů</h3>
+    <ul>
+        {% for article in articles %}
+            {% if article.category|trim == "zapisy" %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>, {{ article.locale_date }}<br/><em>{{ article.summary }}</em></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}
