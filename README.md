@@ -1,20 +1,21 @@
-Web [tkalci.cz](http://tkalci.cz) je generován nástrojem 
+Tohle je kompletní sada souborů a skriptů, kterými se generuje obsah stránek
+[Tkalců na webu](http://tkalci.cz). Používáme k tomu nástroj 
 [Pelican](http://blog.getpelican.com/), který
 konvertuje obsah sepsaný v Markdown syntaxi na kolekci statických stránek. 
 
-* [Obsah]()
-  * [Formát souborů]()
-  * [Pozvánky]()
-  * [Zápisy]()
-  * [Statické stránky]()
-  * [Obrázky]()
-* [Jak můžete pomoct]()
-  * [Úpravy obsahu]()
-  * [Rozšiřování funkcionality]()
-* [Docker]()
-  * [Build]()
-  * [Vygenerování statického obsahu]()
-* [Šablony]()
+* [Obsah](#obsah)
+  * [Formát souborů](#formát-souborů)
+  * [Pozvánky](#pozvánky)
+  * [Zápisy](#zápisy)
+  * [Statické stránky](#statické-stránky)
+  * [Obrázky](#obrázky)
+* [Jak můžete pomoct](#jak-můžete-pomoct)
+  * [Úpravy obsahu](#Úpravy-obsahu)
+  * [Rozšiřování funkcionality](#rozšiřování-funkcionality)
+* [Docker](#docker)
+  * [Build](#build)
+  * [Vygenerování statického obsahu](#vygenerování-statického-obsahu)
+* [Šablony](#Šablony)
 
 ## Obsah
 
@@ -147,8 +148,8 @@ směle do toho! Stačí když pošlete pull request s vaší úpravou.
 
 ### Rozšiřování funkcionality
 
-V issues naleznete seznam věcí, které by bylo dobré někdy pro naše stránky 
-zrealizovat.
+V [issues](https://github.com/msgre/tkalci/issues) naleznete seznam věcí, které 
+by bylo dobré někdy pro naše stránky zrealizovat.
 
 
 ## Docker
