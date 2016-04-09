@@ -61,14 +61,6 @@ pomoct, [ozvi se][4].
 *  Vyšší škola objektového návrhu v C++, Cay S.Horstmann, SCIENCE 1997
 *  Základy objektového návrhu v UML, Meilir Page-Jones, Grada 2001
 
-### Seznam výpůjček
-
-Stav k 14.říjnu 2015:
-
-* Roman Brhel: ElasticSearch
-* Zdeněk Rejda: CSS Secrets
-* Petr Šnobelt: Closure
-
 
 [1]: https://groups.google.com/forum/#!forum/tkalci
 [2]: https://docs.google.com/spreadsheets/d/1rsnlRFJjt1iYCarD0WFzYg9zpYp0KM6uoc0R8BBpbDo/edit?usp=sharing
