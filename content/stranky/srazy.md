@@ -13,9 +13,8 @@ Po oficiálním ukončení obvykle plynule přecházíme na áfterpárty do [Sno
 ### Program
 
 Program srazu vzniká hlasováním nad nabídkou témat z této [sdílené tabulky][4].
-Přibližně čtrnáct dní před termínem proběhne prostřednitvím [mailing listu][5] výzva
-k hlasování. Nejpozději týden před srazem budou autoři dvou nejžádanějších
-témat osloveni a požádáni o přípravu cca 45 minutového výstupu. Pokud některý
+Přibližně týden před termínem proběhne hlasování a autoři dvou nejžádanějších
+témat jsou požádáni o přípravu cca 45 minutového výstupu. Pokud některý
 z nich výzvu odřekne, bude osloven autor další přednášky v pořadí. Pokud se
 program vůbec nepodaří seskládat, sraz i přesto proběhne (pokec bez přednášek).
 
@@ -47,8 +46,8 @@ Průběh našich srazů pečlivě dokumentujeme:
 
 ### Organizátoři
 
-Organizátorem srazů je Michal Valoušek, videa natáčí a zpracovává Honza Bednařík.
-Pokud se s námi chcete spojit, mrkněte na [kontaktní stránku][3].
+Organizátorem srazů je Michal Valoušek, videa natáčí a zpracovává Honza Bednařík
+nebo Michal. Pokud se s námi chcete spojit, mrkněte na [kontaktní stránku][3].
 
 
 
