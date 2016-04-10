@@ -3,6 +3,8 @@ Tohle je kompletní sada souborů a skriptů, kterými se generuje obsah stráne
 [Pelican](http://blog.getpelican.com/), který
 konvertuje obsah sepsaný v Markdown syntaxi na kolekci statických stránek. 
 
+![Úvodní stránka webu tkalci.cz, duben 2016](tkalci.png)
+
 * [Obsah](#obsah)
   * [Formát souborů](#formát-souborů)
   * [Pozvánky](#pozvánky)
