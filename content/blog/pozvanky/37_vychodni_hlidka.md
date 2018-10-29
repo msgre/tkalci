@@ -20,7 +20,7 @@ se najdou jiní).
 Druhá polovina srazu bude pod přísným dohledem **Honzy Bednaříka** a strážného.
 Tedy [Sentryho][2].  Opensource real-time crash reporting nástroje, který vám
 udělá pořádek v zabordelených a zabugovaných aplikacích. Princip je jednoduchý
-— jakmile vám v aplikaci nastane vyjímka či jiná anomálie, pošle se stacktrace
+— jakmile vám v aplikaci nastane výjimka či jiná anomálie, pošle se stacktrace
 do Sentry. No a vám zbyde jediné, přidat do seznamu denních rituálů (kupř.
 někde mezi ranní čištění chrupu a první či druhou dopolední svačinku) návštěvu
 webového rozhraní, abyste zjistili co se zase pokazilo.
